@@ -1,0 +1,983 @@
+@font-face 
+        font-family: "Golos Text"
+        src: url('./fonts/Golos-Text_Regular.ttf')
+        font-weight: 400
+        font-style: normal
+@font-face 
+        font-family: "Golos Text"
+        src: url('./fonts/Golos-Text_DemiBold.ttf')
+        font-weight: 600
+        font-style: normal
+body
+    margin: 0 auto
+    width: 1440px
+
+.container
+    width: 1160px
+
+.section_one
+    display: flex
+    flex-direction: column
+    align-items: flex-start
+    padding: 0px
+    width: 1440px
+    height: 136px
+    background: #FFFFFF
+    
+    &_up
+        box-sizing: border-box
+        display: flex
+        flex-direction: row
+        justify-content: space-between
+        align-items: center
+        padding: 24px 120px
+        width: 1440px
+        height: 82px
+        border-bottom: 1px solid #EAEAEA
+
+        &_left
+            display: flex
+            flex-direction: row
+            align-items: center
+            padding: 0px
+            gap: 24px
+            width: 585.6px
+            height: 34px
+
+            p
+                width: 360px
+                height: 34px
+                font-family: 'Golos Text'
+                font-style: normal
+                font-weight: 400
+                font-size: 11px
+                line-height: 158%
+                display: flex
+                align-items: center
+                font-feature-settings: 'pnum' on, 'lnum' on
+                color: #8F9090
+        &_right
+            display: flex
+            flex-direction: row
+            justify-content: flex-end
+            align-items: center
+            padding: 0px
+            gap: 32px
+            width: 242px
+            height: 22px
+            a
+                font-family: 'Golos Text'
+                font-style: normal
+                font-weight: 400
+                font-size: 14px
+                line-height: 158%
+                display: flex
+                align-items: center
+                font-feature-settings: 'pnum' on, 'lnum' on
+                color: #003154
+                text-decoration: none
+            &_mail
+                margin-right: 6.9px
+                width: 15.2px
+                height: 12.2px
+
+            a:hover
+                text-decoration: underline
+    &_down
+        box-sizing: border-box
+        display: flex
+        flex-direction: row
+        justify-content: space-between
+        align-items: center
+        padding: 16px 120px
+        width: 1440px
+        height: 54px
+
+        a
+            display: flex
+            flex-direction: row
+            align-items: center
+            padding: 0px
+            gap: 3px
+
+            font-family: 'Golos Text'
+            font-style: normal
+            font-weight: 400
+            font-size: 15px
+            line-height: 148%
+            font-feature-settings: 'pnum' on, 'lnum' on
+            color: #404040
+            text-decoration: none
+
+        a:hover 
+            text-decoration: underline
+
+.section_two
+    width: 1440px
+    height: 600px
+    display: flex
+    flex-direction: column
+    box-sizing: border-box
+    background-image: linear-gradient(to right, #F7F7F8 70% , #60C0C3 30%)
+   
+    &_flex
+        display: flex
+        flex-direction: row
+        align-items: center
+        padding: 32px 120px
+        isolation: isolate
+    
+
+    &_header
+        display: flex
+        flex-direction: column
+        align-items: flex-start
+        padding: 0px
+        gap: 16px
+        width: 486px
+        height: 317pxpx
+        margin-top: 120px
+        img
+            width: 208px
+            height: 40px
+
+        h1
+            width: 486px
+            height: 114px
+            font-family: 'Golos Text'
+            font-style: normal
+            font-weight: 600
+            font-size: 33px
+            line-height: 116%
+            font-feature-settings: 'pnum' on, 'lnum' on
+            color: #003154
+
+        p
+            width: 486px
+            height: 29px
+            font-family: 'Golos Text'
+            font-style: normal
+            font-weight: 400
+            font-size: 18px
+            line-height: 162%
+            display: flex
+            align-items: center
+            font-feature-settings: 'pnum' on, 'lnum' on
+            color: #404040
+    &_button
+        box-sizing: border-box
+        display: flex
+        flex-direction: row
+        justify-content: center
+        align-items: center
+        padding: 12px 32px
+        gap: 20px
+        width: 200px
+        height: 46px
+        border: 1px solid #003154
+        border-radius: 2px
+        font-family: 'Golos Text'
+        font-size: 15px
+        line-height: 148%
+        font-feature-settings: 'pnum' on, 'lnum' on
+        color: #003154
+
+    &_button:hover 
+        cursor: pointer
+        background: #003154
+        color: #ffffff
+    &_img
+        margin: 25px 0  0 130px
+        img
+            width: 588px
+            height: 440px
+    &_scroll
+        display: flex
+        justify-content: center
+        align-items: center
+        padding: 0px
+        gap: 10px
+        margin: 10px
+.section_three
+    box-sizing: border-box
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    align-items: flex-start
+    padding: 80px 120px
+    gap: 92px
+    width: 1442px
+    height: 376px
+    &_left
+        h1
+            font-family: 'Golos Text'
+            font-style: normal
+            font-weight: 600
+            font-size: 29px
+            line-height: 116%
+            display: flex
+            align-items: center
+            font-feature-settings: 'pnum' on, 'lnum' on
+            color: #003154
+            margin: 0
+        &_flex
+            display: flex
+            flex-direction: row
+            align-items: center
+            padding: 0px
+            gap: 4px
+            margin-top: 24px
+
+            img
+                margin-left: 8px
+
+            a
+                text-decoration: none
+                color: #1E1E1E
+                font-family: 'Golos Text'
+                font-style: normal
+                font-weight: 400
+                font-size: 15px
+                line-height: 148%
+                font-feature-settings: 'pnum' on, 'lnum' on
+            a:hover
+                text-decoration: underline              
+    &_right
+        display: flex
+
+        &_ul
+            box-sizing: border-box
+            display: flex
+            flex-direction: column
+            align-items: flex-start
+            padding: 0px 0px 0px 16px
+            gap: 18px
+            width: 200px
+            height: 216px
+            border-left: 1px solid #E1E1E1
+
+            a
+                font-family: 'Golos Text'
+                font-style: normal
+                font-weight: 400
+                font-size: 17px
+                line-height: 120%
+                font-feature-settings: 'pnum' on, 'lnum' on
+                color: #1E1E1E
+                text-decoration: none
+            a:hover
+                text-decoration: underline
+.section_four
+    box-sizing: border-box
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    align-items: center
+    padding: 80px 120px
+    gap: 80px
+    width: 1440px
+    height: 437px
+    background: #003154
+    &_header
+        width: 788px
+        height: 90px
+        font-family: 'Golos Text'
+        font-style: normal
+        font-weight: 400
+        font-size: 23px
+        line-height: 130%
+        text-align: center
+        font-feature-settings: 'pnum' on, 'lnum' on
+        color: #FFFFFF
+    &_subheader
+        display: flex
+        flex-direction: row
+        justify-content: space-between
+        align-items: flex-end
+        padding: 0px
+        gap: 32px
+        width: 1200px
+        height: 86px
+    &_flex
+        position: relative
+        display: flex
+        flex-direction: column
+        align-items: center
+        padding: 0px
+        gap: 8px
+        isolation: isolate
+        width: 215px
+        height: 86px
+        div
+            display: flex
+            align-items: baseline
+            h2
+                margin: 0
+                margin-block: 0
+                font-family: 'Golos Text'
+                font-style: normal
+                font-weight: 600
+                font-size: 23px
+                line-height: 130%
+                text-align: center
+                font-feature-settings: 'pnum' on, 'lnum' on
+                color: #FFFFFF
+
+        &_img1
+            position: absolute
+            width: 94px
+            height: 96px
+            left: -47px
+            top: -14px
+            z-index: -1
+
+        &_img2
+            position: absolute
+            width: 84px
+            height: 80px
+            left: -13.67px
+            top: -8px
+            z-index: -1
+        &_img3
+            position: absolute
+            width: 80px
+            height: 80px
+            left: -40.33px
+            top: -8px
+            z-index: -1
+
+        &_img4
+            position: absolute
+            width: 88px
+            height: 71px
+            left: -1px
+            top: -1px
+            z-index: -1
+
+        h1
+            font-family: 'Golos Text'
+            font-style: normal
+            font-weight: 600
+            font-size: 51px
+            line-height: 110%
+            font-feature-settings: 'pnum' on, 'lnum' on
+            color: #FFFFFF
+            margin: 0
+
+        p
+            font-family: 'Golos Text'
+            font-style: normal
+            font-weight: 400
+            font-size: 15px
+            line-height: 148%
+            font-feature-settings: 'pnum' on, 'lnum' on
+            color: #FFFFFF
+            margin: 8px 0 0 0
+            margin-block: 0
+.section_five
+    display: flex
+    flex-direction: row
+    justify-content: center
+    align-items: center
+    padding: 0px
+    width: 1440px
+    height: 450px
+    &_left
+        width: 720px
+        height: 450px
+        img
+            width: 720px
+            height: 450px
+    &_right
+        width: 720px
+        height: 450px
+        background: #F2F6FB
+        &_flex
+            padding: 104px 0px 104px 80px
+            gap: 32px
+            h1
+                font-family: 'Golos Text'
+                font-style: normal
+                font-weight: 600
+                font-size: 13px
+                line-height: 140%
+                letter-spacing: 0.08em
+                text-transform: uppercase
+                font-feature-settings: 'pnum' on, 'lnum' on
+                color: #888888
+                margin: 0
+            h2
+                font-family: 'Golos Text'
+                font-style: normal
+                font-weight: 600
+                font-size: 29px
+                line-height: 116%
+                font-feature-settings: 'pnum' on, 'lnum' on
+                color: #003154
+                margin: 8px 0 0 0
+            h3
+                font-family: 'Golos Text'
+                font-style: normal
+                font-weight: 400
+                font-size: 15px
+                line-height: 174%
+                display: flex
+                align-items: center
+                font-feature-settings: 'tnum' on, 'lnum' on
+                color: #404040
+                margin: 16px 0 0 0
+
+            a
+                display: flex
+                align-items: center
+                font-family: 'Golos Text'
+                font-style: normal
+                font-weight: 400
+                font-size: 15px
+                line-height: 148%
+                font-feature-settings: 'pnum' on, 'lnum' on
+                color: #1E1E1E
+                margin: 32px 0 0 0
+                text-decoration: none
+                img
+                    margin-left: 8px
+            a:hover 
+                text-decoration: underline
+                
+            
+.section_six
+    box-sizing: border-box
+    display: flex
+    flex-direction: row
+    justify-content: center
+    align-items: flex-end
+    padding: 40px 120px
+    gap: 126px
+    width: 1440px
+    height: 740px
+    &_text
+        display: flex
+        flex-direction: column
+        align-items: flex-start
+        padding: 0px 0px 49px
+        gap: 16px
+        width: 282px
+        height: 252px
+        span
+            font-family: 'Golos Text'
+            font-style: normal
+            font-weight: 600
+            font-size: 13px
+            line-height: 140%
+            letter-spacing: 0.08em
+            text-transform: uppercase
+            font-feature-settings: 'pnum' on, 'lnum' on
+            color: #888888
+        h1
+            font-family: 'Golos Text'
+            font-style: normal
+            font-weight: 600
+            font-size: 29px
+            line-height: 116%
+            font-feature-settings: 'pnum' on, 'lnum' on
+            color: #003154
+            margin: 0
+        p
+            font-family: 'Golos Text'
+            font-style: normal
+            font-weight: 400
+            font-size: 15px
+            line-height: 174%
+            display: flex
+            align-items: center
+            font-feature-settings: 'tnum' on, 'lnum' on
+            color: #404040
+    &_cards
+        display: flex
+        flex-direction: row
+        justify-content: flex-end
+        align-items: flex-end
+        padding: 0px
+        gap: 24px
+        width: 792px
+        height: 612px
+        &_1
+            display: flex
+            flex-direction: column
+            align-items: flex-start
+            padding: 0px 0px 40px 25px
+            gap: 32px
+            isolation: isolate
+            width: 384px
+            height: 612px
+            background: #F2F6FB
+            border-radius: 2px
+            img
+                width: 384px
+                height: 308px
+        &_2
+            display: flex
+            flex-direction: column
+            align-items: flex-start
+            padding: 0px 0px 40px 25px
+            gap: 32px
+            isolation: isolate
+            width: 384px
+            height: 612px
+            background: #F2F6FB
+            border-radius: 2px
+            img
+                width: 384px
+                height: 308px
+        &_text
+            font-family: 'Golos Text'
+            font-style: normal
+            font-weight: 600
+            font-size: 24px
+            line-height: 110%
+            font-feature-settings: 'pnum' on, 'lnum' on
+            color: #1E1E1E
+            margin: 0
+        &_text2
+            font-family: 'Golos Text'
+            font-style: normal
+            font-weight: 400
+            font-size: 15px
+            line-height: 174%
+            display: flex
+            align-items: center
+            font-feature-settings: 'tnum' on, 'lnum' on
+            color: #404040
+            margin: 0
+.button
+    display: flex
+    flex-direction: row
+    justify-content: center
+    align-items: center
+    padding: 12px 32px
+    gap: 12px
+    width: 181px
+    height: 25px
+    background: #003154
+    border-radius: 2px
+    font-family: 'Golos Text'
+    font-style: normal
+    font-weight: 400
+    font-size: 15px
+    line-height: 148%
+    font-feature-settings: 'pnum' on, 'lnum' on
+    color: #FFFFFF
+
+.button:hover
+    border: 1px solid #003154
+    background: #F2F6FB
+    color: #003154
+    cursor: pointer
+.section_seven
+    box-sizing: border-box
+    display: flex
+    flex-direction: column
+    align-items: flex-start
+    padding: 64px 120px 80px
+    gap: 32px
+    width: 1440px
+    height: 693px
+    &_header
+        display: flex
+        flex-direction: row
+        justify-content: space-between
+        align-items: center
+        padding: 0px
+        gap: 824px
+        width: 1200px
+        height: 34px
+        span
+            width: 282px
+            height: 34px
+            font-family: 'Golos Text'
+            font-style: normal
+            font-weight: 600
+            font-size: 29px
+            line-height: 116%
+            font-feature-settings: 'pnum' on, 'lnum' on
+            color: #003154
+        a
+            width: 110px
+            font-family: 'Golos Text'
+            font-style: normal
+            font-weight: 400
+            font-size: 15px
+            line-height: 148%
+            font-feature-settings: 'pnum' on, 'lnum' on
+            color: #1E1E1E
+            text-decoration: none
+            img
+                margin-left: 3px
+        a:hover 
+            text-decoration: underline
+
+    &_main
+        display: flex
+        flex-direction: row
+        align-items: flex-start
+        padding: 0px
+        gap: 24px
+        width: 1200px
+        &_card
+            display: flex
+            flex-direction: column
+            align-items: flex-start
+            gap: 24px
+            isolation: isolate
+            width: 384px
+            height: 483px
+            background: #F7F7F8
+            img
+                width: 384px
+                height: 288px
+            h1
+                padding-left: 24px
+                margin: 0
+                font-family: 'Golos Text'
+                font-style: normal
+                font-weight: 600
+                font-size: 18px
+                line-height: 152%
+                font-feature-settings: 'pnum' on, 'lnum' on
+                color: #000103
+            p
+                padding-left: 24px
+                margin: 0
+                font-family: 'Golos Text'
+                font-style: normal
+                font-weight: 400
+                font-size: 14px
+                line-height: 158%
+                font-feature-settings: 'pnum' on, 'lnum' on
+                color: #888888
+            &_in
+                display: flex
+                flex-direction: row
+                align-items: flex-start
+                padding: 0px
+                gap: 6px
+                width: 336px
+                height: 19px
+                padding-left: 24px
+                color: #888888
+                img
+                    width: 3px
+                    height: 3px
+                h1
+                    font-family: 'Golos Text'
+                    font-style: normal
+                    font-weight: 400
+                    font-size: 12px
+                    line-height: 158%
+                    display: flex
+                    align-items: center
+                    font-feature-settings: 'pnum' on, 'lnum' on
+                    color: #404040
+                    margin: 0
+                    margin-block: 0
+                    padding: 0
+                span
+                    font-family: 'Golos Text'
+                    font-style: normal
+                    font-weight: 400
+                    font-size: 12px
+                    line-height: 158%
+                    display: flex
+                    align-items: center
+                    font-feature-settings: 'pnum' on, 'lnum' on
+                    color: #8F9090
+
+.section_eight
+    display: flex
+    flex-direction: column
+    align-items: flex-start
+    padding: 100px 0 0 120px
+    isolation: isolate
+    width: 1440px
+    height: 420px
+    background: url('./icons/sect8_bg.png') no-repeat
+    &_main
+        display: flex
+        flex-direction: column
+        align-items: flex-start
+        padding: 40px
+        gap: 40px
+        width: 472px
+        height: 302px
+        background: #F2F6FB
+        border-radius: 2px
+        h1
+            width: 392px
+            height: 68px
+            font-family: 'Golos Text'
+            font-style: normal
+            font-weight: 600
+            font-size: 29px
+            line-height: 116%
+            font-feature-settings: 'pnum' on, 'lnum' on
+            color: #003154
+            margin: 0
+        span
+            width: 392px
+            height: 52px
+            font-family: 'Golos Text'
+            font-style: normal
+            font-weight: 400
+            font-size: 15px
+            line-height: 174%
+            display: flex
+            align-items: center
+            font-feature-settings: 'tnum' on, 'lnum' on
+            color: #404040
+.section_nine
+    display: flex
+    flex-direction: column
+    align-items: flex-start
+    padding: 64px 120px
+    gap: 40px
+    height: 450px
+
+    h1
+        margin: 0
+        font-family: 'Golos Text'
+        font-style: normal
+        font-weight: 600
+        font-size: 29px
+        line-height: 116%
+        font-feature-settings: 'pnum' on, 'lnum' on
+        color: #003154
+    &_card
+
+        display: grid
+        grid-template-columns: repeat(4, 1fr)
+        gap: 10px
+        padding: 0px
+        gap: 24px
+        width: 1200px
+        height: 144px
+    &_flex
+        display: flex
+        flex-direction: column
+        align-items: flex-start
+        gap: 8px
+        width: 282px
+        height: 144px
+        padding: 0 0 0 15px
+        border-left: 1px solid #E1E1E1
+        span
+            font-family: 'Golos Text'
+            font-style: normal
+            font-weight: 400
+            font-size: 14px
+            line-height: 158%
+            font-feature-settings: 'pnum' on, 'lnum' on
+            color: #404040
+.section_ten
+    display: flex
+    flex-direction: column
+    align-items: center
+    padding: 72px 0px
+    gap: 88px
+    width: 1440px
+    height: 740px
+    background: #003154
+    &_up
+        display: flex
+        flex-direction: column
+        align-items: flex-start
+        padding: 0px
+        gap: 24px
+        width: 1200px
+        height: 374px
+        &_top
+            display: flex
+            flex-direction: row
+            justify-content: space-between
+            align-items: flex-start
+            padding: 0px
+            gap: 96px
+            width: 1200px
+            height: 282px
+        &_bottom
+            display: flex
+            flex-direction: row
+            align-items: flex-start
+            padding: 0px
+            gap: 162px
+            width: 506px
+            height: 44px
+            span
+                font-family: 'Golos Text'
+                font-style: normal
+                font-weight: 400
+                font-size: 14px
+                line-height: 158%
+                font-feature-settings: 'pnum' on, 'lnum' on
+                color: #EAEAEA
+                width: 200px
+
+    &_list
+        display: flex
+        flex-direction: column
+        align-items: flex-start
+        padding: 0px
+        gap: 14px
+        width: 220px
+        height: 251px
+        h1
+            display: flex
+            justify-content: center
+            font-family: 'Golos Text'
+            font-style: normal
+            font-weight: 600
+            font-size: 21px
+            line-height: 120%
+            font-feature-settings: 'pnum' on, 'lnum' on
+            color: #FFFFFF
+            margin: 0
+        ul
+            margin: 0
+            margin-block: 0
+            padding: 0
+            font-family: 'Golos Text'
+            font-style: normal
+            font-weight: 400
+            font-size: 14px
+            line-height: 158%
+            font-feature-settings: 'pnum' on, 'lnum' on
+            color: #EAEAEA
+        a
+            display: flex
+            align-items: center
+            font-family: 'Golos Text'
+            font-style: normal
+            font-weight: 400
+            font-size: 14px
+            line-height: 158%
+            font-feature-settings: 'pnum' on, 'lnum' on
+            color: #EAEAEA
+            text-decoration: none
+        a:hover 
+            text-decoration: underline
+        &_flexIMG
+            position: relative
+            img
+                position: absolute
+                left: 99px
+                top: 28px
+  
+    &_line
+        width: 555px
+        height: 0px
+        border: 1px solid #174463
+
+    &_bigLine
+        width: 1438px
+        height: 0px
+        border: 1px solid #174463
+
+    &_down
+        display: flex
+        flex-direction: column
+        align-items: flex-start
+        padding: 0px
+        gap: 24px
+        width: 1200px
+        height: 166px
+        &_top
+            display: flex
+            flex-direction: row
+            align-items: flex-start
+            padding: 0px
+            width: 1200px
+            height: 43px
+            &_flex
+                display: flex
+                align-items: center
+                margin-left: 500px
+
+                &_num
+                    a
+                        text-decoration: none
+                    h1
+                        margin: 0
+                        font-family: 'Golos Text'
+                        font-style: normal
+                        font-weight: 600
+                        font-size: 21px
+                        line-height: 120%
+                        font-feature-settings: 'pnum' on, 'lnum' on
+                        color: #FFFFFF
+                    span
+                        font-family: 'Golos Text'
+                        font-style: normal
+                        font-weight: 400
+                        font-size: 11px
+                        line-height: 158%
+                        font-feature-settings: 'pnum' on, 'lnum' on
+                        color: #EAEAEA
+                &_img
+                    display: flex
+                    align-items: center
+                    justify-content: space-between
+                    width: 150px
+                    margin-left: 90px
+                    img
+                        width: 25px
+                        height: 25px
+                   
+        &_middle
+            display: flex
+            justify-content: space-between
+            align-items: center
+            width: 1200px
+            span
+                font-family: 'Golos Text'
+                font-style: normal
+                font-weight: 400
+                font-size: 12px
+                line-height: 158%
+                font-feature-settings: 'pnum' on, 'lnum' on
+                color: #EAEAEA
+        &_bottom
+            display: flex
+            justify-content: space-between
+            align-items: center
+            width: 1200px
+            &_rules
+                width: 503px
+            &_span
+                display: flex
+                justify-content: space-between
+                width: 450px
+                h1
+                    margin: 0
+                    font-size: 16px
+                    margin-left: 2px
+                span
+                    display: flex
+                    align-items: center
+                    font-family: 'Golos Text'
+                    font-style: normal
+                    font-weight: 400
+                    font-size: 12px
+                    line-height: 158%
+                    font-feature-settings: 'pnum' on, 'lnum' on
+                    color: #EAEAEA
+            &_rules
+                span
+                    display: block
+                    font-family: 'Golos Text'
+                    font-style: normal
+                    font-weight: 400
+                    font-size: 10px
+                    line-height: 158%
+                    font-feature-settings: 'pnum' on, 'lnum' on
+                    color: #D0D0D0
+                span:nth-child(2)
+                    margin-top: 8px
